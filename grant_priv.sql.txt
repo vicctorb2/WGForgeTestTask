@@ -1,0 +1,3 @@
+CREATE USER wg_forge WITH PASSWORD 'a42';
+CREATE DATABASE wg_forge_db;
+GRANT ALL PRIVILEGES ON DATABASE wg_forge_db TO wg_forge;
